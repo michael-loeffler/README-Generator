@@ -67,7 +67,7 @@ function init() {
     inquirer
         .prompt(questions)
         .then((data) => {
-            const fileName = "sampleGeneratedREADME.md";
+            const fileName = "generatedREADME.md";
             writeToFile(fileName, data)})
 }
 
